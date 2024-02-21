@@ -1,10 +1,25 @@
 :root {
     --primColor: #dcdcdc;
     --secoColor: #555555;
-    --cornerRad: 4px;
   }
   body {
-    background-color: var(--primColor);
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 28px;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .navbar-brand-image {
+    width: 89px;
+    filter: brightness(0) invert(1);
+  }
+
+  @media only screen and (min-width: 600px) {
+    body {
+      /* background-color: lightblue; */
+    }
   }
